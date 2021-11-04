@@ -1,0 +1,26 @@
+{
+  "name": "cobaia",
+  "version": "1.0.0",
+  "description": "testes cobaias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "mytest"
+  ],
+  "author": "Giovanna",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/integration/steps/"
+  },
+  "dependencies": {
+    "cypress": "^8.4.1"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "cypress-xpath": "^1.6.2"
+  }
+}
